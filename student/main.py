@@ -36,7 +36,7 @@ def main():
             elif choice == 4:
                 modify.modify()
             elif choice == 5:
-                sort()
+                sort.sort()
             elif choice == 6:
                 total.total()
             elif choice == 7:

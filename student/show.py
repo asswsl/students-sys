@@ -14,7 +14,7 @@ def show():
             print(
                 'id:' + str(d['id']) + '  name:' + str(d['name']) + '  english:' + str(
                     d['english']) + '  python:' +
-                str(d['python']) + '  java:' + str(d['java']))
+                str(d['python']) + '  java:' + str(d['java'])+' grade:'+str(d['grade']))
         break
 
 

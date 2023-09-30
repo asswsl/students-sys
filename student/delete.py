@@ -1,7 +1,8 @@
 import os.path
-
+import show
 
 def delete():
+    show.show()
     while True:
         student_id = input('输入要删除的学生id')
         if student_id != '':

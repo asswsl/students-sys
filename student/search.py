@@ -1,7 +1,8 @@
 import os.path
-
+import show
 
 def search():
+    show.show()
     while True:
         student_id = input('输入要查找的学生id')
         if os.path.exists('students.txt'):  # 判断文件路径是否正确
